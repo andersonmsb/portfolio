@@ -84,6 +84,7 @@ header nav.menu-desktop ul li{
 .btn-abrir-menu i{
     color: #F30000;
     font-size: 40px;
+    display: none;
 }
 
 .menu-mobile{
@@ -215,11 +216,14 @@ section.especialidades .flex{
 .especialidades .especialidades-box i{
     font-size: 70px;
     color: #F30000;
+    display: flex;
+    justify-content: center;
 }
 
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
+    text-align: center;
 }
 
 /* estilo sobre */
@@ -413,6 +417,12 @@ footer .line-footer p a{
     }
 
     /* topo site */
+
+    .btn-abrir-menu i{
+        color: #F30000;
+        font-size: 40px;
+        display: block;
+    }
 
     section.topo-site .flex{
         gap: 40px;
