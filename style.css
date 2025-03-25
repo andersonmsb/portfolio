@@ -50,6 +50,11 @@ button:hover, form .btn-enviar input:hover{
 
 header{
     padding: 40px 4%;
+    z-index: 9999;
+    position: fixed;
+    background-color: black;
+    width: 100%
+    
 }
 
 header > .interface{
@@ -80,6 +85,11 @@ header nav.menu-desktop ul li{
 }
 
 /* estilo menu mobile */
+
+
+main{
+    padding-top: 150px;
+}
 
 .btn-abrir-menu i{
     color: #F30000;
@@ -192,6 +202,7 @@ section.topo-site .flex{
 
 section.especialidades{
     padding: 40px 4%;
+    padding-top: 150px;
 
 }
 
@@ -230,6 +241,7 @@ section.especialidades .flex{
 
 section.sobre{
     padding: 80px 4%;
+    padding-top: 150px;
 }
 
 section.sobre .flex{
@@ -275,6 +287,7 @@ section.sobre .flex{
 section.portfolio{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff13;
+    padding-top: 150px;
 }
 
 section.portfolio .flex{
@@ -324,6 +337,7 @@ section.portfolio .flex{
 
 section.formulario{
     padding: 80px 4%;
+    padding-top: 150px;
 }
 
 form{
